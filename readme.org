@@ -1,0 +1,33 @@
+* Css
+
+** Example of Building a Responsive Grid-View
+Este ejemplo muestra una página web responsive simple, con 12 columnas.
+
+** Aplicar  estilo a muchas clases
+En el ejemplo aprendí a aplicar estilo a barias clases de una forma épica que nunca abia visto.
+
+*** Ejemplo:
+En este ej. hay 12 columnas y a las 12 aplicamos lo siguiente:
+
+#+begin_src css
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+#+end_src
+
+** CSS ::after Selector
+Añade algo despues de determinada etiqueta
+
+*** Ejemplo:
+En este ej. se añade texto despues de la etiqueta *<p>*
+#+begin_src css
+p::after {
+  content: " - Este es el texto despues de <p>";
+}
+#+end_src
+
+* Imagen
+
+[[https://i.imgur.com/JCYd25t.png]]
