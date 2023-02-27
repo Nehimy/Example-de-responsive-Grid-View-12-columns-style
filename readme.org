@@ -1,33 +1,20 @@
 * Css
 
-** Example of Building a Responsive Grid-View
+** Example of Building a Responsive Grid-View | Style
 Este ejemplo muestra una página web responsive simple, con 12 columnas.
 
-** Aplicar  estilo a muchas clases
-En el ejemplo aprendí a aplicar estilo a barias clases de una forma épica que nunca abia visto.
-
+** :hover
+Cuando el maus esta sobre un elemento que realicé algo.
 *** Ejemplo:
-En este ej. hay 12 columnas y a las 12 aplicamos lo siguiente:
+Cuando el muse este sobre los las etiquestas <li>
+que cambiel el fondo de color.
 
 #+begin_src css
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-#+end_src
-
-** CSS ::after Selector
-Añade algo despues de determinada etiqueta
-
-*** Ejemplo:
-En este ej. se añade texto despues de la etiqueta *<p>*
-#+begin_src css
-p::after {
-  content: " - Este es el texto despues de <p>";
+li:hover {
+  background-color: #0099cc;
 }
 #+end_src
 
 * Imagen
 
-[[https://i.imgur.com/JCYd25t.png]]
+[[https://i.imgur.com/rADMkNU.png]]
